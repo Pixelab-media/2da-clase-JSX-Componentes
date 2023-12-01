@@ -1,0 +1,10 @@
+.btn-primario{
+    width: 100%;
+    background-color: rgb(39, 39, 202);
+    color: rgb(218, 215, 215)
+}
+.btn-secundario{
+    width: 100%;
+    background-color: rgb(135, 135, 135);
+    color:  rgb(60, 60, 201);
+}

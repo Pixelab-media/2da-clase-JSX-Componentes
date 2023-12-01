@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+}
+
+.contenedor{
+  background-color: red;
+  width: 600px;
+  height: 300px;
+}
+.card{
+  border: solid 2px black;
+  width: 200px;
+  margin: 5px;
+}
+.card-container{
+  display: flex;
+}
+
+section{
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+img{
+  width: 80%;
+}
+nav{
+  background-color: rgb(255, 255, 127);
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+nav button {
+  width: 50%;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+footer{
+  background-color: rgb(255, 255, 127);
+  display: flex;
+  width: 100%;
+  height: 50px;
+}

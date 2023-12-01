@@ -1,5 +1,8 @@
-Ejercicio, realizar en ./pages/Main.jsx
+Realizar una pagina que muestre lugares del mundo.
 
-un componente donde se importen el componente CardContainer.jsx
+Main estará dividida en 3 tarjetas. 
+una mostrará 5 tarjetas de lugares de américa
+una mostrará 5 tarjetas de lugares de europa
+una mostrará 5 tarjetas de lugares de asia 
+imagen, nombre, numero de visitantes, (booleano que diga si se puede ir en verano)
 
-Luego importar en App.jsx Main.jsx
