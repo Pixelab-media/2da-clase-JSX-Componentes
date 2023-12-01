@@ -1,5 +1,6 @@
 import BtnPrimario from "./BtnPrimario"
 import BtnSecundario from "./BtnSecundario"
+import Button from "./Button"
 import Logo from "./logo"
 
 const Card = () =>{
@@ -64,8 +65,10 @@ const Card = () =>{
                     <p>{agregarSigno(p.descuento)} </p>
                     <p>{p.cuotas} </p>
                     {p.envioGratis && <p>Envio Gratis </p>}
-                    <BtnPrimario />
-                    <BtnSecundario />
+                    {/* <BtnPrimario />
+                    <BtnSecundario /> */}
+                    <Button mensaje="Comprar ahora" clase="btn-primario"/>
+                    <Button mensaje="Agregar al carrito" clase="btn-secundario"/>
                 </div>
             )}
         </div>
